@@ -16,6 +16,18 @@ window.onload = () => {
       <a target="_blank" href="https://wiki.compsoc.ie/en/About-CompSoc/Terms-Of-Use">Terms of Service</a>
     </div>
   `);
+
+  const formOptions = document.getElementById("kc-form-options");
+  formOptions.innerHTML += `
+  <div style="
+    margin: 0 auto;
+    text-align: center;
+    font-size: 12px;
+    color: gray;
+    margin-bottom: 16px;
+  ">
+    <p>Please contact <a href="mailto:support@compsoc.ie">support@compsoc.ie</a> if you run into any issues.</p>
+  </div>`
 }
 
 

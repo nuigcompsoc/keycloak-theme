@@ -125,7 +125,7 @@ label {
   padding: 8px;
 }
 
-input {
+#password, #username {
     margin: 8px auto;
     height: 16px;
     background-color: rgba(0,0,0,0.25);
